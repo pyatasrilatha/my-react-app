@@ -7,9 +7,7 @@ function Header(props) {
         // <nav class="navbar navbar-dark bg-primary">
         <>
             <Container>
-                <Navbar fixed="top" expand="lg" variant="light" bg="light">
-                    <Navbar.Brand href="#" class="float-left"><strong>Space X Launch Program</strong></Navbar.Brand>
-                </Navbar>
+                <strong>Space X Launch Programs</strong>
             </Container>
         </>
     )

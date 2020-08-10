@@ -9,6 +9,7 @@ import SingleLineGridList from './components/TitlebarGridList/SingleLineGridList
 import Source from './components/Source/Source';
 import firstimage from './images/corona1.jpeg';
 import Flights from './components/Home/Flights';
+import Footer from './components/Header/Footer';
 
 import {
   BrowserRouter as Router,
@@ -65,6 +66,7 @@ function App() {
           <AlertComponent errorMessage={errorMessage} hideError={updateErrorMessage}/>
         </div>
       </div>
+      <Footer/>
     </div>
     </Router>
   );

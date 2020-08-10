@@ -10,7 +10,7 @@ import corona4 from './Testcenter.jpeg';
 import corona5 from './tax.jpg';
 import metrics from './performance-metrics.jpg';
 import corona6 from './benefits.jpg'
-import Pdf from './coronvavirushelplinenumber.pdf';
+// import Pdf from './coronvavirushelplinenumber.pdf';
 import Dropdown from 'react-bootstrap/Dropdown';
 import Form from 'react-bootstrap/Form';
 
@@ -67,10 +67,10 @@ export default function Home() {
           description="Live statistics and coronavirus news tracking the number of confirmed cases,tests, and death toll due to the COVID-19 accross world"
           />
         </Grid>
-        <Grid item xs>
+        {/* <Grid item xs>
           <MediaCard img = {corona3} link= {Pdf} title= "CALL FOR HELP??"
           description="Responding to COVID-19 211 provides a 24/7 helpline that is connected to a prepared team, capable of providing updated information."/>
-        </Grid>
+        </Grid> */}
         <Grid item xs>
           <MediaCard img = {corona4} title= "Test Centres Information!!"
           link = "https://www.news18.com/covid-testing-centres/"

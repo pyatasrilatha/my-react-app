@@ -1,4 +1,0 @@
-INSERT INTO userdetails (username, password, first_name, last_name, email_id, location, gender)
-VALUES ('satish23','Test1234','Satish','Kumar','satish23@gmail.com','Hyderabad','male');
-INSERT INTO userdetails (username, password, first_name, last_name, email_id, location, gender)
-VALUES ('sajith19','Test1234','Sajith','Reddy','sajith19@gmail.com','Bangalore','male');
